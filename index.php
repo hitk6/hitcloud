@@ -3,7 +3,9 @@ welcome to hit cloud
 
 <pre>
 
-print 'ifconfig'
+<?php
+
+print `ifconfig`;
 
 ?>
 </pre>
